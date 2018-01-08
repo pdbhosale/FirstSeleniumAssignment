@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="icpl.AutomationTestAssignment.FirstAssignment.ListernerTest" duration-ms="3" started-at="2017-12-20T06:32:59Z" finished-at="2017-12-20T06:32:59Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="3" started-at="2017-12-20T06:32:59Z" finished-at="2017-12-20T06:32:59Z">
+    </test> <!-- Command line test -->
+  </suite> <!-- icpl.AutomationTestAssignment.FirstAssignment.ListernerTest -->
+</testng-results>

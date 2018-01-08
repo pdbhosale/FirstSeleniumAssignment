@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="Firefox"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG">
+        <methods>
+          <include name="launchSite" invocation-numbers="0"/>
+          <include name="searchFlight"/>
+          <include name="validateResult"/>
+        </methods>
+      </class> <!-- icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Orbitz site opned for flight booking]]>
+    </line>
+    <line>
+      <![CDATA[Orbitz site opned for flight booking]]>
+    </line>
+    <line>
+      <![CDATA[Data entered for search flight]]>
+    </line>
+    <line>
+      <![CDATA[No of flights present are:8]]>
+    </line>
+    <line>
+      <![CDATA[Data entered for search flight]]>
+    </line>
+    <line>
+      <![CDATA[No of flights present are:8]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41344" started-at="2018-01-08T05:30:39Z" finished-at="2018-01-08T05:31:20Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="32173" started-at="2018-01-08T05:30:39Z" finished-at="2018-01-08T05:31:11Z">
+      <class name="icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG">
+        <test-method status="PASS" signature="launchSite(org.testng.ITestContext)[pri:0, instance:icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG@148080bb]" name="launchSite" duration-ms="17234" started-at="2018-01-08T11:00:39Z" description="Launches the Flight Booking site" finished-at="2018-01-08T11:00:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7fc5bdff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Orbitz site opned for flight booking]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method status="PASS" signature="searchFlight()[pri:0, instance:icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG@148080bb]" name="searchFlight" duration-ms="14841" started-at="2018-01-08T11:00:56Z" description="Enters valid data and Search for flight" depends-on-methods="icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG.launchSite" finished-at="2018-01-08T11:01:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Data entered for search flight]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlight -->
+        <test-method status="PASS" signature="validateResult()[pri:0, instance:icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG@148080bb]" name="validateResult" duration-ms="73" started-at="2018-01-08T11:01:11Z" description="Validate searched flight details" depends-on-methods="icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG.searchFlight" finished-at="2018-01-08T11:01:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[No of flights present are:8]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateResult -->
+      </class> <!-- icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG -->
+    </test> <!-- ChromeTest -->
+    <test name="FireFoxTest" duration-ms="41344" started-at="2018-01-08T05:30:39Z" finished-at="2018-01-08T05:31:20Z">
+      <class name="icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG">
+        <test-method status="PASS" signature="launchSite(org.testng.ITestContext)[pri:0, instance:icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG@42dafa95]" name="launchSite" duration-ms="25137" started-at="2018-01-08T11:00:39Z" description="Launches the Flight Booking site" finished-at="2018-01-08T11:01:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4824e597]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Orbitz site opned for flight booking]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method status="PASS" signature="searchFlight()[pri:0, instance:icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG@42dafa95]" name="searchFlight" duration-ms="16161" started-at="2018-01-08T11:01:04Z" description="Enters valid data and Search for flight" depends-on-methods="icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG.launchSite" finished-at="2018-01-08T11:01:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Data entered for search flight]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlight -->
+        <test-method status="PASS" signature="validateResult()[pri:0, instance:icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG@42dafa95]" name="validateResult" duration-ms="15" started-at="2018-01-08T11:01:20Z" description="Validate searched flight details" depends-on-methods="icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG.searchFlight" finished-at="2018-01-08T11:01:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[No of flights present are:8]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateResult -->
+      </class> <!-- icpl.AutomationTestAssignment.FirstAssignment.FlightBookingWithTestNG -->
+    </test> <!-- FireFoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
